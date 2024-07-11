@@ -1,0 +1,106 @@
+body {
+    background-image: repeating-linear-gradient(157.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),repeating-linear-gradient(90deg, rgb(0,0,0) 0px, rgb(0,0,0) 20px,transparent 20px, transparent 22px),linear-gradient(90deg, hsl(333,93%,55%),hsl(45,93%,55%),hsl(117,93%,55%),hsl(189,93%,55%),hsl(261,93%,55%));
+    font-family: Arial, sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    width: 320px;
+    background-color: #303030; /* Color del fondo del formulario */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: #e0e0e0; /* Color del texto */
+}
+
+form h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: calc(100% - 20px); /* Ajusta el ancho para dejar espacio para el padding interno */
+    margin: 10px 10px; /* Margen alrededor de los campos */
+    padding: 10px;
+    border: 1px solid #df09b0; /* Color de borde de los campos */
+    border-radius: 5px;
+    background-color: #484848; /* Color de fondo de los campos */
+    color: #e0e0e0; /* Color del texto dentro de los campos */
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.ancho{
+    max-width: 280px;
+}
+
+.abajo {
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+}
+
+button[type="submit"] {
+    width: calc(100% - 20px);
+    margin: 10px 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #b43a44; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #993032; /* Color de fondo del botón al pasar el ratón */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Estilo del contenedor del formulario */
+.card {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #303030; /* Color del fondo del contenedor */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Estilo de la cabecera del formulario */
+.card-header {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Estilo del pie del formulario */
+.card-footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
